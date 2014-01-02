@@ -1,3 +1,0 @@
-= I18nEngineHelper
-
-This project rocks and uses MIT-LICENSE.

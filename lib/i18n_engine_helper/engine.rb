@@ -1,3 +1,5 @@
+require 'i18n_language_translations'
+
 module I18nEngineHelper
   class Engine < ::Rails::Engine
 
