@@ -1,6 +1,6 @@
 require 'i18n_language_translations'
 
-module I18nEngineHelper
+module I18nHelper
   class Engine < ::Rails::Engine
 
     config.generators do |g|
