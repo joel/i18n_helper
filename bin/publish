@@ -6,11 +6,19 @@ class Publish
 
   def start version, name
     system "bundle && bundle exec rake spec"
-    system "gem build #{name}.gemspec"
-    system "git tag -a v#{version} -m 'version #{version}'"
-    system "git push --tags"
-    system "gem push #{name}-#{version}.gem"
-    system "git push origin master"
+    unless File.exists? "#{name}-#{version}.gem"
+      system "gem build #{name}.gemspec"
+      if File.exists? "#{name}-#{version}.gem"
+        system "git tag -a v#{version} -m 'version #{version}'"
+        system "git push --tags"
+        system "gem push #{name}-#{version}.gem"
+        system "git push origin master"
+      else
+        puts "Build Fail"
+      end
+    else
+      puts "Version already exist"
+    end
   end
 
 end
