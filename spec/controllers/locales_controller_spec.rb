@@ -7,10 +7,6 @@ describe LocalesController do
     I18n.available_locales += [:wk] unless I18n.available_locales.include?(:wk)
   end
 
-  after do
-    I18n.available_locales = [:en, :fr]
-  end
-
   describe "POST 'locales#setting'" do
 
     subject { post :setting, locale: :wk }

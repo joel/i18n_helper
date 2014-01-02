@@ -2,8 +2,6 @@ require 'spec_helper'
 
 describe LocalesHelper do
 
-  before { I18n.locale = :en }
-
   describe '#formatted_locale' do
     it do
       expect(
@@ -15,7 +13,7 @@ describe LocalesHelper do
   describe '#i18n_helper' do
 
     before { I18n.locale = locale }
-    after { I18n.locale = I18n.default_locale }
+    # after { I18n.locale = I18n.default_locale }
 
     context 'en' do
       let(:locale) { :en }
@@ -51,7 +49,7 @@ describe LocalesHelper do
 
   describe 'i18n_helper_link' do
     before { I18n.locale = :en }
-    after { I18n.locale = I18n.default_locale }
+    after  { I18n.locale = I18n.default_locale }
 
     context 'en' do
       let(:data) do
