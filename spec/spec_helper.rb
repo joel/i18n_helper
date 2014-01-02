@@ -27,6 +27,7 @@ RSpec.configure do |config|
 
   config.before(:suite) do
     I18n.locale = :en
+    I18n.available_locales = [:en, :fr]
   end
 
   config.after(:each) do

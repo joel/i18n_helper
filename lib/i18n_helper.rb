@@ -1,4 +1,4 @@
-require "i18n_engine_helper/engine"
+require 'i18n_helper/engine'
 
 module I18nHelper
 end

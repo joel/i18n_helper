@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    i18n_engine_helper (0.0.1)
+    i18n_helper (0.0.1)
       i18n-language-translations (~> 0.0.2)
       rails (~> 4.0.2)
 
@@ -105,5 +105,5 @@ PLATFORMS
 
 DEPENDENCIES
   factory_girl_rails
-  i18n_engine_helper!
+  i18n_helper!
   rspec-rails

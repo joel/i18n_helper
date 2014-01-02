@@ -1,4 +1,4 @@
-# I18nEngineHelper
+# I18nHelper
 
 This is a really straightforward I18n locales helper. It can you help to change locale web app on the fly.
 
@@ -10,12 +10,12 @@ The locale of app is recorded on current session.
 
 Add to your top of Gemfile:
 
-	gem 'i18n_engine_helper'
+	gem 'i18n_helper'
 
 ## Usage
 
 Gem come with two main helpers ```formatted_locale``` and ```i18n_helper_link```
- 
+
 ```formatted_locale``` provide ``` 'Language : English' ``` title, entirely translated in your current locale
 
 ```i18n_helper_link``` provide links ready to use for call controller for change your web app locales on the fly.
@@ -24,11 +24,11 @@ If you need more customize you can call directly ```i18n_helper``` helper, this 
 
 	[ ['en', 'English'], ['fr', 'French'] ]
 
-## Caution 
+## Caution
 
 It a really first alpha version of this Helper, if you add any feature please contribute!
 
-# User profil locale setting 
+# User profil locale setting
 
 If you use an authentication system, like ```Devise```, and your ```User model``` like (```Devise Resource```) accessible through the ```current_user``` method helper it automatically set the locale for the who is logged.
 
