@@ -1,3 +1,11 @@
+[![Code Climate](https://codeclimate.com/github/joel/i18n_helper.png)](https://codeclimate.com/github/joel/i18n_helper)
+
+[![Dependency Status](https://gemnasium.com/joel/i18n_helper.png)](https://gemnasium.com/joel/i18n_helper)
+
+[![Build Status](https://travis-ci.org/joel/i18n_helper.png?branch=master)](https://travis-ci.org/joel/i18n_helper) (Travis CI)
+
+[![Coverage Status](https://coveralls.io/repos/joel/i18n_helper/badge.png)](https://coveralls.io/r/joel/i18n_helper)
+
 # I18nHelper
 
 This is a really straightforward I18n locales helper. It can you help to change locale web app on the fly.
