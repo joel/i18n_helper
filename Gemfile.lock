@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    i18n_helper (0.0.1)
-      i18n-language-translations (>= 0.0.2)
+    i18n_helper (0.0.2)
+      i18n-language-translations (~> 0.0)
       rails (~> 4.0)
 
 GEM

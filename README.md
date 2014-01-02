@@ -10,7 +10,9 @@
 
 This is a really straightforward I18n locales helper. It can you help to change locale web app on the fly.
 
-# Features
+![Screenshot](https://f.cloud.github.com/assets/5789/1832468/0ad6491c-73b6-11e3-8f14-3358168ed5ff.png)
+
+## Features
 
 The locale of app is recorded on current session.
 
