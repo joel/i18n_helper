@@ -6,6 +6,8 @@
 
 [![Coverage Status](https://coveralls.io/repos/joel/i18n_helper/badge.png)](https://coveralls.io/r/joel/i18n_helper)
 
+[![Gem Version](https://badge.fury.io/rb/i18n_helper.png)](http://badge.fury.io/rb/i18n_helper)
+
 # I18nHelper
 
 This is a really straightforward I18n locales helper. It can you help to change locale web app on the fly.

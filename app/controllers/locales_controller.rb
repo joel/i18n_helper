@@ -1,5 +1,7 @@
 class LocalesController < ApplicationController
 
+  skip_before_action :verify_authenticity_token
+
   def setting
     if params[:locale] and I18n.available_locales.include?(params[:locale].to_sym)
       session[:locale] = params[:locale]

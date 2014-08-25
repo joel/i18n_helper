@@ -27,6 +27,7 @@ Dir[File.join(ENGINE_RAILS_ROOT, 'spec/support/**/*.rb')].each {|f| require f }
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
+  config.infer_spec_type_from_file_location!
 
   config.before(:suite) do
     I18n.locale = :en
