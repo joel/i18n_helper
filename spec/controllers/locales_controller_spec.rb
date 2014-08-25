@@ -15,15 +15,21 @@ describe LocalesController do
       before { subject }
 
       describe 'should redirect back' do
-        it { response.should redirect_to '/' }
+        specify do
+          expect(response).to redirect_to '/'
+        end
       end
 
       describe 'should store on session locale' do
-        it { session[:locale].should eql 'wk' }
+        specify do
+          expect(session[:locale]).to eql 'wk'
+        end
       end
 
       describe 'should change locale application' do
-        it { I18n.locale.should eql :wk }
+        specify do
+          expect(I18n.locale).to eql :wk
+        end
       end
 
     end
