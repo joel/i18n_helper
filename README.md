@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/joel/i18n_helper.png?branch=master)](https://travis-ci.org/joel/i18n_helper) (Travis CI)
 
-[![Coverage Status](https://coveralls.io/repos/joel/i18n_helper/badge.png)](https://coveralls.io/r/joel/i18n_helper)
+[![Coverage Status](https://coveralls.io/repos/joel/i18n_helper/badge.png?branch=master)](https://coveralls.io/r/joel/i18n_helper)
 
 [![Gem Version](https://badge.fury.io/rb/i18n_helper.png)](http://badge.fury.io/rb/i18n_helper)
 

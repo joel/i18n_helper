@@ -54,8 +54,8 @@ describe LocalesHelper do
     context 'en' do
       let(:data) do
         [
-          "<a data-method=\"post\" href=\"/locales/en\" rel=\"nofollow\">English</a>",
-          "<a data-method=\"post\" href=\"/locales/fr\" rel=\"nofollow\">French</a>"
+          "<a rel=\"nofollow\" data-method=\"post\" href=\"/locales/en\">English</a>",
+          "<a rel=\"nofollow\" data-method=\"post\" href=\"/locales/fr\">French</a>"
         ]
       end
       it do
