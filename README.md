@@ -14,6 +14,24 @@ This is a really straightforward I18n locales helper. It can you help to change 
 
 ![Screenshot](https://f.cloud.github.com/assets/5789/1832468/0ad6491c-73b6-11e3-8f14-3358168ed5ff.png)
 
+# add callbacks
+
+If we need to add or skip some callbacks, often skip authentication you can add a initializer on your mother app
+
+Add `config/initializers/locales.rb`
+
+```
+module LocalesControllerCallbacks
+  extend ActiveSupport::Concern
+
+  included do
+    skip_before_action :authenticate_user!
+  end
+end
+
+LocalesController.send(:include, LocalesControllerCallbacks)
+```
+
 ## Features
 
 The locale of app is recorded on current session.

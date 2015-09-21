@@ -1,3 +1,8 @@
+### VERSION 0.0.4
+
+* refactoring
+  * Remove hard coded callbacks 
+
 ### VERSION 0.0.3
 
 * bug fix
